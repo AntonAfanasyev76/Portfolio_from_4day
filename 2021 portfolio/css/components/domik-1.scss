@@ -1,0 +1,29 @@
+.domik-1 {
+    
+    &:hover {
+        .cloud-1__img {
+            transition-property: opacity;
+            transition-duration: 1s;
+            opacity: 1;
+        }
+      }
+}
+
+.domik-1__img {
+    position: absolute;
+    width: 168px;
+    height: 110px;
+    bottom: 120px;
+    left: 90px;
+}
+
+.cloud-1__img {
+    position: absolute;
+    width: 210px;
+    height: 100px;
+    bottom: 180px;
+    left: 240px;
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 0;
+}

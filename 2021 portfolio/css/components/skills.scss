@@ -1,0 +1,46 @@
+.skills {
+  // position: absolute;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+}
+
+.skills-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skills-list dt {
+    padding-left: 64px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  
+  .skill-html {
+    background-image: url("../img/icon-html.svg");
+  }
+  
+  .skill-css {
+    background-image: url("../img/icon-css.svg");
+  }
+  
+  .skill-js {
+    background-image: url("../img/icon-js.svg");
+  }
+  
+  .level {
+    margin: 4px 0 16px;
+    padding: 0;
+    height: 14px;
+    font-size: 0;
+    background-color: #ffffff;
+    border: 1px solid #86c3fa;
+    border-radius: 8px;
+  }
+  
+  .level div {
+    margin: 1px;
+    height: 12px;
+    background-color: #288be6;
+    border-radius: 6px;
+  }

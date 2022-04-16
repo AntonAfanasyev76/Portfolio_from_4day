@@ -1,0 +1,21 @@
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 40px 0;
+  background-color: #00417d;
+  text-align: right;
+  width: 100%;
+}
+
+.footer__email {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("../../img/icon-email-footer.svg");
+  display: inline-block;
+  padding-right: 30px;
+}

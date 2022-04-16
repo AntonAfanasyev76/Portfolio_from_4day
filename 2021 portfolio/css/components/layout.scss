@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family:'Open Sans', Helvetica, sans-serif; 
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  background-color: #f2f4f6;
+  background: url("../img/fon.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.container {
+    // width: 1200px;
+    margin: 0 auto;
+  }
