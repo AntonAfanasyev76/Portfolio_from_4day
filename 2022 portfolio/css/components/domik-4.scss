@@ -1,0 +1,33 @@
+.domik-4 {
+    
+    &:hover {
+        .cloud-4__img {
+            transition-property: opacity;
+            transition-duration: 1s;
+            opacity: 1;
+        }
+      }
+
+      @include phones {
+        display: none;
+    }
+}
+
+.domik-4__img {
+    position: absolute;
+    width: rem(100px);
+    height: rem(100px);
+    bottom: rem(50px);
+    left: rem(500px);
+}
+
+.cloud-4__img {
+    position: absolute;
+    width: rem(105px);
+    height: rem(50px);
+    bottom: rem(120px);
+    left: rem(555px);
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 0;
+}

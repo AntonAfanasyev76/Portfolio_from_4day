@@ -1,0 +1,38 @@
+.second {
+    background: url("../images/bg/new_year.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-second {
+    background-image: url('../images/bg/Snow1.png'), url('../images/bg/Snow2.png'), url('../images/bg/Snow3.png');
+    height:100%;
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 12s linear infinite;
+   } 
+
+   @keyframes snow {
+    0% {background-position: rem(0px) rem(0px), rem(0px) rem(0px), rem(0px) rem(0px);}
+    100% {background-position: rem(500px) rem(500px), rem(400px) rem(400px), rem(300px) rem(300px);}
+   }
+
+   @-moz-keyframes snow {
+    0% {background-position: rem(0px) rem(0px), rem(0px) rem(0px), rem(0px) rem(0px);}
+    100% {background-position: rem(500px) rem(1000px), rem(400px) rem(400px), rem(300px) rem(300px);}
+   }
+    
+   @-webkit-keyframes snow {
+   0% {background-position: rem(0px) rem(0px), rem(0px) rem(0px), rem(0px) rem(0px);}
+    100% {background-position: rem(500px) rem(1000px), rem(400px) rem(400px), rem(300px) rem(300px);}
+   }
+    
+   @-ms-keyframes snow {
+    0% {background-position: rem(0px) rem(0px), rem(0px) rem(0px), rem(0px) rem(0px);}
+    100% {background-position: rem(500px) rem(1000px), rem(400px) rem(400px), rem(300px) rem(300px);}
+   } 
+

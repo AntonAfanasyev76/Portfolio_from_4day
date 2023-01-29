@@ -1,0 +1,32 @@
+.domik-5 {
+
+    &:hover {
+        .cloud-5__img {
+            transition-property: opacity;
+            transition-duration: 1s;
+            opacity: 1;
+        }
+    }
+}
+
+.domik-5__img {
+    position: absolute;
+    width: rem(190px);
+    height: rem(244px);
+    bottom: rem(10px);
+    right: rem(5px);
+    // transform: rotate(-2deg);
+    // filter: drop-shadow(0 0 rem(3px) rgb(12, 86, 245));
+
+}
+
+.cloud-5__img {
+    position: absolute;
+    width: rem(210px);
+    height: rem(100px);
+    bottom: rem(160px);
+    right: rem(126px);
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 0;
+}

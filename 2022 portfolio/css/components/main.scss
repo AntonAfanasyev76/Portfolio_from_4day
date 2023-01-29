@@ -1,0 +1,41 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+$iphone5: 320px;
+
+//colors
+$blue: #3390FF; 
+$cloud: #0277BD;
+$yellow: #FFD517;
+$green: #05A13C;
+
+//z-indexes
+$z-fixed-menu: 100;
+
+// normalise
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+// setup
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import "media";
+@import "layout";
+
+
+// components
+@import "hero";
+@import "header";
+@import "menu";
+@import "hamburger";
+@import "visitka";
+@import "project";
+@import "domik-1";
+@import "domik-2";
+@import "domik-3";
+@import "domik-4";
+
+@import "second";
+@import "domik-5";
+

@@ -1,0 +1,32 @@
+.visitka {
+    // margin-bottom: rem(620px);
+    // flex-grow: 1;
+  }
+     
+  .visitka .container {
+    text-align: center;
+  }
+  
+  .visitka__title {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: rem(44px);
+    line-height: rem(88px);
+    font-weight: 400;
+  }
+  
+  .visitka p {
+    margin: 0;
+    font-size: rem(23px);
+    line-height: rem(48px);
+  }
+  
+.visitka__subheading {
+  margin: 0 0 rem(56px);
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: rem(64px);
+  color:#ffffff;
+  line-height: rem(80px);
+  font-weight: 400;
+  text-align: center;
+}

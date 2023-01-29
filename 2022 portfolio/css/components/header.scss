@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  margin: 0 0 rem(90px);
+  padding: rem(30px) 0;
+  text-align: right;
+
+  @include tablets {
+    .menu {
+      display: none;
+    }
+  }
+}
+
+.header__email {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: rem(30px);
+  white-space: nowrap;
+
+  @include tablets {
+    display: none;
+  }
+}
